@@ -95,12 +95,10 @@ main {
 
 #article {
   margin: 0 15px;
-  display: inline-block;
   border: 1px dotted darkgray;
   padding: 15px;
   text-align: justify;
   width: 700px;
-  vertical-align: top;
 }
 
 h2 {
@@ -109,14 +107,41 @@ h2 {
 }
 
 aside {
-  margin: 0 auto;
-  display: inline-block;
   border: 1px dotted darkgray;
   padding: 15px;
   text-align: justify;
   width: 300px;
+
+}
+
+.lado-esquerdo {
+  display: inline-block;
   vertical-align: top;
 }
+
+.lado-direito {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 auto;
+}
+
+#section-tabela {
+  margin: 80px auto 10px;
+  width: 50%;
+  text-align: center;
+}
+
+table {
+  border: 1px solid darkgray;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+table tr td {
+  border: 1px solid darkgray;
+}
+
 
 footer {
   padding: 10px;
