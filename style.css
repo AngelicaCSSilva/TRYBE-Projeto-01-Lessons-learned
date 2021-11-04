@@ -79,3 +79,23 @@ a {
 a:hover {
   border-color: rgb(234, 48, 88);
 }
+
+main {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#article {
+  margin: 0 15px;
+  display: inline-block;
+  border: 1px dotted darkgray;
+  padding: 15px;
+  text-align: justify;
+  width: 700px;
+  vertical-align: top;
+}
+
+h2 {
+  margin: 15px auto 10px;
+  color: rgb(234, 48, 88);
+}
