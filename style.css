@@ -12,7 +12,7 @@ body {
   position: fixed;
   display: block;
   top: 0;
-  background-color: rgb(229, 229, 229);
+  background-color: rgb(223, 223, 223);
   width: 100%;
   padding: 10px;
 }
@@ -67,22 +67,30 @@ ol , ul {
 
 #links {
   text-align: justify;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+nav {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: rgb(234, 48, 88);
 }
 
 a {
-  color: rgb(25, 25, 25);
+  color: rgb(41, 30, 32);
   text-decoration: none;
   border-bottom: 2px solid lightgray;
 }
 
 a:hover {
+  color: rgb(234, 48, 88);
   border-color: rgb(234, 48, 88);
 }
 
 main {
   margin: 20px auto;
   text-align: center;
+  line-height: 25px;
 }
 
 #article {
@@ -108,4 +116,10 @@ aside {
   text-align: justify;
   width: 300px;
   vertical-align: top;
+}
+
+footer {
+  padding: 10px;
+  background-color: rgb(233, 233, 233);
+  display: block;
 }
