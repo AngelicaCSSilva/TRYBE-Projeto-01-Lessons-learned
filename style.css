@@ -5,6 +5,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Segoe UI, sans-serif;
 }
 
 #cabecalho {
@@ -17,11 +18,10 @@ body {
 }
 
 h1 {
-  font-family: Segoe UI, sans-serif;
   color: rgb(25, 25, 25);
 }
 
-#destaque-titulo {
+.destaque {
   color: rgb(234, 48, 88);
 }
 
@@ -35,7 +35,7 @@ h1 {
   border-radius: 100%;
   width: 200px;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   display: block;
 }
 
@@ -56,11 +56,24 @@ ol , ul {
   width: 300px;
 }
 
-#section-foto p {
+#section-foto section p {
   font-weight: 800;
   margin-top: 10px;
 }
 
 #section-foto section {
   background-color: rgb(248, 209, 217);
+}
+
+#links {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+a {
+    color: rgb(25, 25, 25);
+    text-decoration: none;
+    border-bottom: 2px solid #d3d3d3;
+} a:hover {
+    border-color: rgb(234, 48, 88);
 }
