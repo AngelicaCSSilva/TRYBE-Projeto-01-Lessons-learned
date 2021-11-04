@@ -9,6 +9,7 @@ body {
 
 #cabecalho {
   position: fixed;
+  display: block;
   top: 0;
   background-color: rgb(229, 229, 229);
   width: 100%;
@@ -22,4 +23,16 @@ h1 {
 
 #destaque-titulo {
   color: rgb(234, 48, 88);
+}
+
+#div-foto {
+  margin: 80px auto 10px;
+  width: 50%;
+}
+
+#minha_foto {
+  border-radius: 100%;
+  width: 200px;
+  margin: auto;
+  display: block;
 }
