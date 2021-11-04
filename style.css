@@ -25,9 +25,10 @@ h1 {
   color: rgb(234, 48, 88);
 }
 
-#div-foto {
+#section-foto {
   margin: 80px auto 10px;
   width: 50%;
+  text-align: center;
 }
 
 #minha_foto {
@@ -38,7 +39,28 @@ h1 {
   display: block;
 }
 
-#licoes_aprendidas {
+ol, ul {
+  text-align: left;
   margin-top: 10px;
-  margin-left: 30px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+#licoes_a_aprender {
+  list-style: square;
+}
+
+.inline {
+  display: inline-block;
+  margin: auto;
+  width: 300px;
+}
+
+#section-foto p {
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+#section-foto section {
+    background-color: rgb(248, 209, 217);
 }
