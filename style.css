@@ -39,7 +39,7 @@ h1 {
   display: block;
 }
 
-ol, ul {
+ol , ul {
   text-align: left;
   margin-top: 10px;
   margin-left: 50px;
@@ -57,10 +57,10 @@ ol, ul {
 }
 
 #section-foto p {
-    font-weight: 800;
-    margin-top: 10px;
+  font-weight: 800;
+  margin-top: 10px;
 }
 
 #section-foto section {
-    background-color: rgb(248, 209, 217);
+  background-color: rgb(248, 209, 217);
 }
