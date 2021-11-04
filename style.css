@@ -66,14 +66,16 @@ ol , ul {
 }
 
 #links {
-    text-align: justify;
-    margin-bottom: 20px;
+  text-align: justify;
+  margin-bottom: 20px;
 }
 
 a {
-    color: rgb(25, 25, 25);
-    text-decoration: none;
-    border-bottom: 2px solid #d3d3d3;
-} a:hover {
-    border-color: rgb(234, 48, 88);
+  color: rgb(25, 25, 25);
+  text-decoration: none;
+  border-bottom: 2px solid lightgray;
+}
+
+a:hover {
+  border-color: rgb(234, 48, 88);
 }
